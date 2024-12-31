@@ -1,10 +1,12 @@
 package OOP.StaticAndInstanceBlock.StaticBlockExample;
 
 public class Taxation {
+
     int price;
     static int taxPercentage;
 
     static{
+        //setting tax
         taxPercentage = 18;
     }
 
